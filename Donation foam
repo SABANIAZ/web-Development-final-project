@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container ">
+        <h1>Donate now</h1>
+        <form action="">
+            <label for="name">Full Name</label>
+            <br><br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email Address</label>
+            <br><br>
+            <input type="email" id="email" name="email" required>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+            
+            <br><br>
+            
+            <label for="phone">phone number(optional)</label>
+             <br><br>
+            <input type="tel" id="phone" name="phone" required="">
+            <br><br>
+            <label for="amount">Donation amount:</label>
+             <br><br>
+            <input type="number" id="amount" name="amount" required>
+            <select name="currency" id="currency" required>
+                <ul>
+                <option value="pkr">500$</option>
+                <option value="eur">EUR</option>
+                <option value="gbp">GBP</option>
+                </ul>
+             <br><br>
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment" required>
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank-transfer">Bank Transfer</option>
+
+        </form>
+    </div>
+   
+    </form>
+
+</body>
+</html>
