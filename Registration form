@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration</title>
+</head>
+<body>
+    <h1>Register new student</h1>
+    <br><hr><br>
+    <form action="#">
+       <div>
+       
+        <label for="username">student name</label>
+        <input type="text" name="username"><br
+       </div>
+       <div>
+        <label for="password">student password</label>
+        <input type="password" name="password">
+       </div> 
+       <div>
+        <label for="email"> student email</label>
+        <input type="email" name="email">
+        <div>
+            <label for="credits">student credit hours:</label>
+            <input type="range" name="credits" min="5" max="19" value="19" readonly>
+        </div>
+        <div>
+            <label for="credits2">student credit hours:</label>
+            <input type="number" name="credits2" min="5" max="19" >
+        </div>
+       <div>
+        <label for="pic-file"> upload a pasport size photo</label>
+        <input type="file" name="pic-file">
+       </div>
+       <div>
+        <label for="privacy">upload recent passport size photo</label>
+        <input type="file" name="privacy" value="u98we7mkuf0w78042870n986">
+       </div>
+       <div>
+        <label for="radio">choose gender</label>
+        <input type="radio" value="female" name="gender">Female
+        <input type="radio" value="male" name="gender">male
+       </div>
+       <div>
+        <label for="skills">select skills:</label>
+        <input type="checkbox" name="" id="">python
+        <input type="checkbox" name="" id="">c++
+        <input type="checkbox" name="" id="">java
+        <input type="checkbox" name="" id="">javascript
+
+       </div>
+       <div>
+        <select name="" id="">
+            <option value="">select education level</option>
+            <option value="14">Bs</option>
+            <option value="16">Ms</option>
+            <option value="18">Phd</option>
+        </select>
+       </div>
+       <textarea name="" id="" rows="4" cols="49"></textarea>
+
+       <button type="submit">submit</button>
+       
+        </form>
+ 
+</body>
+</html>
